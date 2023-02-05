@@ -1,0 +1,261 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Tw Cen MT', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth
+}
+
+h2 {
+  text-align: center;
+  font-size: 50px;
+}
+
+h5 {
+  text-align: center;
+  font-size: 50px;
+}
+
+
+.Alexander-Grahem-Bell {
+  background-color: #d9f1c4;
+
+}
+.Jules-cezar{
+  background-color: #d9f1c4;
+}
+
+h3 {
+  font-size: 22px;
+  padding-left: 350px;
+}
+
+.imga {
+  width: 300px;
+  float: right;
+  position: relative;
+  right: 15px;
+  top: 20px;
+}
+
+.imgz {
+  width: 280px;
+  float: left;
+  position: relative;
+  left: 15px;
+  top: 20px;
+}
+
+h6 {
+  font-size: 22px;
+}
+
+.Al-Khwarazimi {
+  background-color: #ffffff;
+}
+.Charles-babbage{
+  background-color: rgb(255, 255, 255);
+}
+
+p.sbox {
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  padding: 0 0 0 1%;
+  padding-left: 350px;
+  border: #000;
+  background: #75250500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.pk {
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  padding: 0 1%;
+  padding-right: 350px;
+  border: #000;
+  border-width: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.spk {
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  padding: 0 1%;
+  padding-left: 350px;
+  border: #000;
+  border-width: 2px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p.box {
+  font-size: 20px;
+  text-align: left;
+  position: relative;
+  padding: 0 1%;
+  padding-right: 350px;
+  border: #000;
+  border-width: 2px;
+  background: #75250500;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.1)), url('image/BG4.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 0 8%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 5px 0;
+}
+
+nav .logo {
+  width: 120px;
+  cursor: pointer;
+}
+
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+  padding-right: 40px;
+  text-align: right;
+  list-style-type: none;
+}
+
+ul li {
+  margin-right: 10px;
+}
+
+ul li a {
+  position: relative;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+}
+
+ul li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  transform: translateX(-50%) translateY(-5px);
+  height: 3px;
+  background: #90e094;
+  transition: 0.3s;
+}
+
+ul li a:hover::after {
+  width: 38%;
+}
+
+.site-container {
+  position: absolute;
+  bottom: 10%;
+  color: #fff;
+}
+
+.site-container p {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.site-container h1 {
+  font-size: 90px;
+  line-height: 90px;
+  margin-left: -10px;
+  color: transparent;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.541);
+  background: url('image/pattern.png');
+  background-color: #9bf185;
+  -webkit-background-clip: text;
+  background-clip: text;
+  background-position: 0 0;
+  animation: animate 20s linear 1s infinite alternate;
+}
+
+.site-container h4 {
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  color: #ffffff;
+}
+
+@keyframes animate {
+  100% {
+    background-position: -500px 0;
+  }
+}
+
+.site-container h3 {
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.site-container .row {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.row a {
+  display: flex;
+  align-items: center;
+  padding: 5px 20px;
+  text-decoration: none;
+  color: #99d680;
+  border: 1px solid #76a56a;
+  margin-right: 40px;
+  font-size: 15px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: 0.3s;
+}
+
+.row a:hover {
+  background-color: #b8f0b3;
+  color: #000;
+}
+
+.row a span {
+  font-size: 10px;
+  font-weight: bold;
+  line-height: 1;
+  margin-left: 10px;
+}
+
+.row span {
+  font-size: 18px;
+}
+
+.accueil {
+  font-size: 20px;
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.accueils {
+  font-size: 20px;
+  margin-left: 350px;
+  text-decoration: none;
+
+}
